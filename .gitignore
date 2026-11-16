@@ -1,0 +1,17 @@
+# Proposal & local planning documents (kept local, not tracked by Git)
+proposal-docs/
+
+# Environment variables / API keys (never commit secrets!)
+.env
+.env.local
+*.key
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies & build output (if used later)
+node_modules/
+dist/
